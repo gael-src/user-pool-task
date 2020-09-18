@@ -27,7 +27,7 @@ function Basic() {
 					// alert(JSON.stringify(values, null, 2));
 
 					// HISTORY PUSH TO LOAD USERS ON SUBMIT
-					history.push("/users");
+					history.push("/user-pool-task/users");
 
 					setSubmitting(false);
 				}, 400);

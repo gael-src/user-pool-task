@@ -6,7 +6,7 @@ import logo from "../../assets/moyyn-logo.png";
 function Header() {
 	return (
 		<header className="header__div">
-			<Link className="nav__link" to="/">
+			<Link className="nav__link" to="/user-pool-task">
 				{/* LOGO */}
 				<img className="logo__img" src={logo} alt="Moyyn Logo" />
 
@@ -14,10 +14,10 @@ function Header() {
 				<h1>Moyyn</h1>
 			</Link>
 			<nav className="header__nav">
-				<Link className="nav__link" to="/about">
+				<Link className="nav__link" to="/user-pool-task/about">
 					About
 				</Link>
-				<Link className="nav__link" to="/contact">
+				<Link className="nav__link" to="/user-pool-task/contact">
 					Contact
 				</Link>
 			</nav>
