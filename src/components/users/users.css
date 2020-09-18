@@ -1,56 +1,78 @@
 /* USERS MAIN DIV */
 .users__div {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	margin-top: 250px;
+	position: absolute;
+	top: 0;
+	margin-top: 50px;
+	scroll-behavior: smooth;
+}
+
+.loading__p {
+	font-size: 20px;
+	font-weight: bold;
+	color: green;
 }
 
 /* USERS H2 */
 .users__h2 {
 	font-size: 18px;
 	font-weight: bold;
-	margin: 50px 0;
-	position: absolute;
-	top: 100px;
+	margin: 100px 0;
 }
 
 /* USERS UL */
 .users__ul {
 	/* border: solid 1px red; */
-	max-width: 100vw;
-	position: absolute;
-	top: 200px;
+	max-width: 80vw;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
-	/* padding: 300px 0; */
 }
 
 /* USERS LI */
 .users__li {
-	border: solid 1px #f0f0f0;
-	background-color: #f0f0f0;
+	border: solid 1px #e0e0e0;
+	/* background-color: #f0f0f0; */
 	border-radius: 10px;
 	margin: 50px;
-	width: 250px;
+	padding: 10px 15px;
+	width: 230px;
 	height: 300px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	align-items: center;
+	/* align-items: center; */
 }
 
 .users__li:hover {
-	border: solid 1px darkgrey;
-	background-color: #f0f0f096;
+	box-shadow: 2px 2px 2px 1px #e0e0e0c2;
+}
+
+/* USER PIC */
+.users__pic {
+	width: 110px;
+	height: 110px;
+	margin: 15px auto;
+	border-radius: 50%;
+	border: solid 5px #265cff;
+	/* opacity: 0.3; */
+}
+
+.users__pic:hover {
+	width: 120px;
+	height: 120px;
+	margin: 10px auto;
 }
 
 /* USERS P NAME */
 .users__name {
-	color: #457b9d;
+	color: #1e2329;
+
 	margin: 5px;
 	font-size: 20px;
 	font-weight: bold;
@@ -58,16 +80,16 @@
 
 /* USERS LINK */
 .users__link {
-	/* text-decoration: none; */
-	color: black;
-	margin: 5px auto;
+	color: #4c5b6d;
+	margin: 5px;
 }
 
 .users__link:hover {
-	color: #457b9d;
+	color: #265cff;
 }
 
 /* USERS P CITY */
 .users__city {
-	margin: 5px auto;
+	margin: 5px;
+	color: #4c5b6d;
 }

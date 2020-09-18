@@ -4,6 +4,8 @@ import "./App.css";
 import Header from "../header/header";
 import Home from "../home/home";
 import Users from "../users/users";
+import About from "../pages/about";
+import Contact from "../pages/contact";
 
 function App() {
 	return (
@@ -16,6 +18,12 @@ function App() {
 					</Route>
 					<Route exact path="/users">
 						<Users />
+					</Route>
+					<Route exact path="/about">
+						<About />
+					</Route>
+					<Route exact path="/contact">
+						<Contact />
 					</Route>
 				</Switch>
 			</div>

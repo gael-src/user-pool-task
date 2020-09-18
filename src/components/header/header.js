@@ -13,14 +13,14 @@ function Header() {
 				{/* TITLE */}
 				<h1>Moyyn</h1>
 			</Link>
-			{/* <nav className="header__nav">
-				<Link className="nav__link" to="/">
-					Home
+			<nav className="header__nav">
+				<Link className="nav__link" to="/about">
+					About
 				</Link>
-				<Link className="nav__link" to="/users">
-					User Pool
+				<Link className="nav__link" to="/contact">
+					Contact
 				</Link>
-			</nav> */}
+			</nav>
 		</header>
 	);
 }

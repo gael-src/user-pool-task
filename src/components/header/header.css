@@ -29,8 +29,8 @@ h1 {
 	width: 100px;
 }
 
-/* 
-NAV MAIN DIV
+
+/* NAV MAIN DIV */
 .header__nav {
 	display: flex;
 	justify-self: right;
@@ -42,7 +42,7 @@ NAV MAIN DIV
 		margin: auto;
 	}
 } 
-*/
+
 
 /* NAV ROUTER LINK*/
 .nav__link {

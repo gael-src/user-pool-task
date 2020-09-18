@@ -1,0 +1,31 @@
+/* MAIN DIV */
+.main__pages {
+	min-height: 100vh;
+	max-width: 10vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* H2 */
+.h2__pages {
+    margin: 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* LOGIN LINK */
+.login__link {
+    text-decoration: none;
+	color: white;
+	background-color: #265cff;
+	border: solid 1px #265cff;
+	font-size: 18px;
+	padding: 10px 50px;
+	margin: 30px auto;
+}
+
+.login__link:hover {
+	opacity: 0.8;
+}
