@@ -38,15 +38,23 @@
 .users__li {
 	border: solid 1px #e0e0e0;
 	/* background-color: #f0f0f0; */
+
 	border-radius: 10px;
 	margin: 50px;
-	padding: 10px 15px;
+	padding: 5px 15px;
 	width: 250px;
 	height: 350px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	/* align-items: center; */
+}
+
+@media only screen and (max-width: 500px) {
+	.users__li {
+		width: 100%;
+		margin: 5px;
+	}
 }
 
 .users__li:hover {
@@ -74,7 +82,7 @@
 	color: #1e2329;
 	display: flex;
 	align-items: center;
-	margin: 5px;
+	margin: 5px 0;
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -82,7 +90,8 @@
 /* USERS LINK */
 .users__link {
 	color: #4c5b6d;
-	margin: 5px;
+	word-break: break-all;
+	margin: 5px 0;
 	display: flex;
 	align-items: center;
 }
@@ -93,7 +102,7 @@
 
 /* USERS P CITY */
 .users__city {
-	margin: 5px;
+	margin: 5px 0;
 	color: #4c5b6d;
 	display: flex;
 	align-items: center;
