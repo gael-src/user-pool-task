@@ -5,9 +5,17 @@
 ## Install:
 
 > $ git clone repo</br>
-> $ cd repo</br>
-> $ npm i</br>
+> $ cd repo</br> > $ npm i</br>
 > $ npm start</br>
+
+</br>
+
+## Deploy:
+
+> $ npm run build</br>
+> $ npm run deploy</br>
+
+https://gael-src.github.io/user-pool-task/
 
 </br>
 </br>
