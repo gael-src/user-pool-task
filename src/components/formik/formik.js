@@ -61,7 +61,10 @@ function Basic() {
 						onBlur={handleBlur}
 						value={values.email}
 					/>
-					{errors.email && touched.email && errors.email}
+					<p className="error__p">
+						{errors.email && touched.email && errors.email}
+					</p>
+
 					<label className="label__form" htmlFor="">
 						Password
 					</label>
@@ -74,7 +77,10 @@ function Basic() {
 						onBlur={handleBlur}
 						value={values.password}
 					/>
-					{errors.password && touched.password && errors.password}
+					<p className="error__p">
+						{errors.password && touched.password && errors.password}
+					</p>
+
 					<button
 						className="button__form"
 						type="submit"

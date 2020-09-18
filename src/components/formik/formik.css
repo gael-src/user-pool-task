@@ -43,3 +43,9 @@
 	opacity: 0.8;
 }
 
+/* ERROR P MESSAGE */
+.error__p {
+	height: 5px;
+	color: red;
+}
+
