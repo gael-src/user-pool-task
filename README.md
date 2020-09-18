@@ -5,7 +5,8 @@
 ## Install:
 
 > $ git clone repo</br>
-> $ cd repo</br> > $ npm i</br>
+> $ cd repo</br> 
+> $ npm i</br>
 > $ npm start</br>
 
 </br>
@@ -48,3 +49,12 @@ https://www.npmjs.com/package/react-router-dom
 https://formik.org/docs/overview
 
 </br>
+
+### gh-pages
+
+> $ npm install gh-pages</br>
+
+https://www.npmjs.com/package/gh-pages
+
+</br>
+
