@@ -1,7 +1,5 @@
 import React from "react";
 import { Formik } from "formik";
-import { Link } from "react-router-dom";
-import { withRouter } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import "./formik.css";
 
@@ -28,7 +26,7 @@ function Basic() {
 				setTimeout(() => {
 					// alert(JSON.stringify(values, null, 2));
 
-					// HISTORY
+					// HISTORY PUSH TO LOAD USERS ON SUBMIT
 					history.push("/users");
 
 					setSubmitting(false);
@@ -77,7 +75,6 @@ function Basic() {
 						value={values.password}
 					/>
 					{errors.password && touched.password && errors.password}
-					{/* <Link className="nav__link" to="/users"> */}
 					<button
 						className="button__form"
 						type="submit"
@@ -85,11 +82,10 @@ function Basic() {
 					>
 						LogIn
 					</button>
-					{/* </Link> */}
 				</form>
 			)}
 		</Formik>
 	);
 }
 
-export default withRouter(Basic);
+export default Basic;
