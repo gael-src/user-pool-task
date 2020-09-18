@@ -6,6 +6,7 @@ import { useHistory } from "react-router-dom";
 import "./formik.css";
 
 function Basic() {
+	// HISTORY
 	let history = useHistory();
 	return (
 		<Formik
@@ -27,6 +28,7 @@ function Basic() {
 				setTimeout(() => {
 					// alert(JSON.stringify(values, null, 2));
 
+					// HISTORY
 					history.push("/users");
 
 					setSubmitting(false);
