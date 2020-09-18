@@ -16,13 +16,13 @@ function App() {
 					<Route exact path="/user-pool-task/">
 						<Home />
 					</Route>
-					<Route exact path="/users">
+					<Route exact path="/user-pool-task/users">
 						<Users />
 					</Route>
-					<Route exact path="/about">
+					<Route exact path="/user-pool-task/about">
 						<About />
 					</Route>
-					<Route exact path="/contact">
+					<Route exact path="/user-pool-task/contact">
 						<Contact />
 					</Route>
 				</Switch>
