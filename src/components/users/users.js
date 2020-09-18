@@ -36,11 +36,16 @@ class Userpool extends React.Component {
 	}
 
 	render() {
-		// console.log(this.state.data);
+		const dataValuesArray = Object.values(this.state.data);
+		// console.log(dataValuesArray);
+		// dataValuesArray.map((item) => {
+		// 	// console.log(item);
+		// })
 		return (
 			<div className="userpool__div">
 				{/* TITLE */}
 				<h2>User Pool</h2>
+				
 			</div>
 		);
 	}
