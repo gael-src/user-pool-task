@@ -14,12 +14,14 @@ const Basic = () => (
 				!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
 			) {
 				errors.email = "Invalid email address";
+			} else if (values.password.length < 7) {
+				errors.password = "Min length 8 characters";
 			}
 			return errors;
 		}}
 		onSubmit={(values, { setSubmitting }) => {
 			setTimeout(() => {
-				// alert(JSON.stringify(values, null, 2));
+				alert(JSON.stringify(values, null, 2));
 				setSubmitting(false);
 			}, 400);
 		}}
@@ -41,7 +43,7 @@ const Basic = () => (
 				</legend>
 
 				<label className="label__form" htmlFor="">
-					Email:
+					Email
 				</label>
 				<input
 					className="input__form"
@@ -54,7 +56,7 @@ const Basic = () => (
 				/>
 				{errors.email && touched.email && errors.email}
 				<label className="label__form" htmlFor="">
-					Password:
+					Password
 				</label>
 				<input
 					className="input__form"
@@ -68,9 +70,7 @@ const Basic = () => (
 				{errors.password && touched.password && errors.password}
 
 				<button className="button__form" type="submit" disabled={isSubmitting}>
-					{/* <Link className="nav__link" to="/users"> */}
-						LogIn
-					{/* </Link> */}
+					LogIn
 				</button>
 			</form>
 		)}
