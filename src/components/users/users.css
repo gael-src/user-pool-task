@@ -7,7 +7,7 @@
 	margin-top: 250px;
 }
 
-/* USERS MAIN DIV */
+/* USERS H2 */
 .users__h2 {
 	font-size: 18px;
 	font-weight: bold;
@@ -16,13 +16,12 @@
 	top: 100px;
 }
 
-/* USERS MAIN DIV */
+/* USERS UL */
 .users__ul {
 	/* border: solid 1px red; */
 	max-width: 100vw;
 	position: absolute;
 	top: 200px;
-	/* height: 150vh; */
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -30,12 +29,11 @@
 	/* padding: 300px 0; */
 }
 
-/* USERS MAIN DIV */
+/* USERS LI */
 .users__li {
-	border: solid 1px black;
-	border-radius: 15px;
-	box-shadow: 3px 2px rgba(0, 0, 0, 0.2);
-	/* box-sizing: border-box; */
+	border: solid 1px #f0f0f0;
+	background-color: #f0f0f0;
+	border-radius: 10px;
 	margin: 50px;
 	width: 250px;
 	height: 300px;
@@ -46,11 +44,11 @@
 }
 
 .users__li:hover {
-	border: solid 3px black;
-	margin: 47px;
+	border: solid 1px darkgrey;
+	background-color: #f0f0f096;
 }
 
-/* USERS MAIN DIV */
+/* USERS P NAME */
 .users__name {
 	color: #457b9d;
 	margin: 5px;
@@ -58,7 +56,7 @@
 	font-weight: bold;
 }
 
-/* USERS MAIN DIV */
+/* USERS LINK */
 .users__link {
 	/* text-decoration: none; */
 	color: black;
@@ -69,7 +67,7 @@
 	color: #457b9d;
 }
 
-/* USERS MAIN DIV */
+/* USERS P CITY */
 .users__city {
 	margin: 5px auto;
 }
