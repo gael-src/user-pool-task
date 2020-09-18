@@ -49,9 +49,9 @@ function Basic() {
 						<h2>Login to view our user pool</h2>
 					</legend>
 
-					<label className="label__form" htmlFor="">
+					{/* <label className="label__form" htmlFor="">
 						Email
-					</label>
+					</label> */}
 					<input
 						className="input__form"
 						type="email"
@@ -65,9 +65,9 @@ function Basic() {
 						{errors.email && touched.email && errors.email}
 					</p>
 
-					<label className="label__form" htmlFor="">
+					{/* <label className="label__form" htmlFor="">
 						Password
-					</label>
+					</label> */}
 					<input
 						className="input__form"
 						type="password"
