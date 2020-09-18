@@ -1,12 +1,11 @@
-# user-pool-task
+# Moyyn - User Pool Task
 
 </br>
 
 ## Install:
 
 > $ git clone repo</br>
-> $ cd repo</br>
-> $ npm i</br>
+> $ cd repo</br> > $ npm i</br>
 > $ npm start</br>
 
 </br>
