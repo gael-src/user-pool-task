@@ -1,11 +1,12 @@
 import React from "react";
 import "./home.css";
+import Basic from "../formik/formik";
 
 function Home() {
 	return (
 		<div className="home__div">
-			{/* TITLE */}
-			<h2>Login to view our user pool</h2>
+			{/* FORMIK */}
+			<Basic />
 		</div>
 	);
 }
