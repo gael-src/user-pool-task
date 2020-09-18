@@ -5,7 +5,7 @@ class Userpool extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			usersData: {},
+			usersData: [],
 		};
 		this.fetchUsersData = this.fetchUsersData.bind(this);
 	}
@@ -36,27 +36,19 @@ class Userpool extends React.Component {
 	}
 
 	render() {
-		let users = [];
-
-		const usersDataObject = this.state.usersData;
-		const allUsersObjectKeys = Object.keys(usersDataObject);
-		for (let key of allUsersObjectKeys) {
-			const objectData = usersDataObject[key];
-			if (typeof objectData === "object") {
-				const usersValuesArray = Object.values(objectData);
-				users.push(usersValuesArray);
-			}
-		}
-
-		console.log(users);
-
 		return (
 			<div className="userpool__div">
 				{/* TITLE */}
-				<h2>User Pool</h2>
-				{/* {users.map((item) => {
-					<div>test</div>;
-				})} */}
+				<h2 className="userpool__h2">User Pool</h2>
+				<ul className="userpool__ul">
+					{this.state.usersData.map((item, index) => (
+						<li className="userpool__li" key={item.id}>
+							<p>{item.name}</p>
+							<p>{item.email}</p>
+							<p>{item.address.city}</p>
+						</li>
+					))}
+				</ul>
 			</div>
 		);
 	}
