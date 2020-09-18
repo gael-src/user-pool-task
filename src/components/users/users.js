@@ -1,7 +1,7 @@
 import React from "react";
 import "./users.css";
 
-class Userpool extends React.Component {
+class Users extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -37,15 +37,26 @@ class Userpool extends React.Component {
 
 	render() {
 		return (
-			<div className="userpool__div">
+			<div className="users__div">
 				{/* TITLE */}
-				<h2 className="userpool__h2">User Pool</h2>
-				<ul className="userpool__ul">
+				<h2 className="users__h2">User Pool</h2>
+				<ul className="users__ul">
 					{this.state.usersData.map((item, index) => (
-						<li className="userpool__li" key={item.id}>
-							<p>{item.name}</p>
-							<p>{item.email}</p>
-							<p>{item.address.city}</p>
+						<li className="users__li" key={item.id}>
+							<ul className="user__info__ul">
+								<li>
+									<p className="users__desc">Name: </p>
+									<p className="users__name">{item.name}</p>
+								</li>
+								<li>
+									<p className="users__desc">Email: </p>
+									<p className="users__email">{item.email}</p>
+								</li>
+								<li>
+									<p className="users__desc">City: </p>
+									<p className="users__city">{item.address.city}</p>
+								</li>
+							</ul>
 						</li>
 					))}
 				</ul>
@@ -54,4 +65,4 @@ class Userpool extends React.Component {
 	}
 }
 
-export default Userpool;
+export default Users;
