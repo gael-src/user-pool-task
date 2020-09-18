@@ -36,6 +36,7 @@ h1 {
 	display: flex;
 	justify-self: right;
 	margin-left: auto;
+	margin-right: 10px;
 }
 
 @media only screen and (max-width: 400px) {
