@@ -8,6 +8,7 @@
 	display: flex;
 	justify-content: left;
 	align-items: center;
+	background-color: white;
 }
 
 @media only screen and (max-width: 400px) {

@@ -1,23 +1,33 @@
 /* MAIN DIV */
 .main__pages {
 	min-height: 100vh;
-	max-width: 10vw;
+	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
+/* ABOUT PAGE */
+.about__page {
+	background-color: #ffc10770;
+}
+
+/* CONTACT PAGE */
+.contact__page {
+	background-color: #20c99670;
+}
+
 /* H2 */
 .h2__pages {
-    margin: 50px;
-    font-size: 22px;
-    font-weight: bold;
+	margin: 50px;
+	font-size: 22px;
+	font-weight: bold;
 }
 
 /* LOGIN LINK */
 .login__link {
-    text-decoration: none;
+	text-decoration: none;
 	color: white;
 	background-color: #265cff;
 	border: solid 1px #265cff;
