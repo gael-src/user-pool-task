@@ -13,7 +13,7 @@ function App() {
 			<div className="App">
 				<Header />
 				<Switch>
-					<Route exact path="/user-pool-task/">
+					<Route exact path="/user-pool-task">
 						<Home />
 					</Route>
 					<Route exact path="/user-pool-task/users">
