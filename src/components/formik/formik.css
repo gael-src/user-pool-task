@@ -12,20 +12,20 @@
 .legend__form {
 	font-size: 18px;
 	font-weight: bold;
-	margin: 0 auto 20px;
+	margin: 0 auto 30px;
 	color: #265cff;
 }
 
 /* BUTTON FORM */
 .label__form {
 	font-size: 16px;
-	margin: 20px 0 0 20px;
+	margin: 20px 0;
 	align-self: flex-start;
 }
 
 /*  INPUT FORM */
 .input__form {
-	margin: 10px 0 10px 0;
+	margin: 15px 0;
 	padding: 10px;
 }
 
@@ -48,4 +48,3 @@
 	height: 5px;
 	color: red;
 }
-
