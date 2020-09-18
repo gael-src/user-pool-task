@@ -43,20 +43,13 @@ class Users extends React.Component {
 				<ul className="users__ul">
 					{this.state.usersData.map((item, index) => (
 						<li className="users__li" key={item.id}>
-							<ul className="user__info__ul">
-								<li>
-									<p className="users__desc">Name: </p>
-									<p className="users__name">{item.name}</p>
-								</li>
-								<li>
-									<p className="users__desc">Email: </p>
-									<p className="users__email">{item.email}</p>
-								</li>
-								<li>
-									<p className="users__desc">City: </p>
-									<p className="users__city">{item.address.city}</p>
-								</li>
-							</ul>
+							<p className="users__name">{item.name}</p>
+
+							<a className="users__link" href={`mailto:${item.email}`}>
+								{item.email}
+							</a>
+
+							<p className="users__city">{item.address.city}</p>
 						</li>
 					))}
 				</ul>

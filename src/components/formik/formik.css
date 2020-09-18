@@ -38,3 +38,8 @@
 	padding: 10px 50px;
 	margin: 30px auto;
 }
+
+.button__form:hover {
+	opacity: 0.8;
+}
+
