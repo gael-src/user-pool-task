@@ -1,0 +1,25 @@
+/* APP MAIN DIV */
+.App {
+	/* border: solid 1px red; */
+	max-width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* H1 */
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* LOGO */
+.logo__img {
+	width: 100px;
+}
