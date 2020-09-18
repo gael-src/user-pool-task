@@ -5,7 +5,7 @@
 ## Install:
 
 > $ git clone repo</br>
-> $ cd repo</br> 
+> $ cd repo</br>
 > $ npm i</br>
 > $ npm start</br>
 
@@ -22,6 +22,8 @@ https://gael-src.github.io/user-pool-task/
 </br>
 
 ## Used technologies:
+
+(those steps are just for informational use)
 
 </br>
 
@@ -52,9 +54,8 @@ https://formik.org/docs/overview
 
 ### gh-pages
 
-> $ npm install gh-pages</br>
+> \$ npm install gh-pages</br>
 
 https://www.npmjs.com/package/gh-pages
 
 </br>
-
