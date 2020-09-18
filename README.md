@@ -5,13 +5,14 @@
 ## Install:
 
 > $ git clone repo</br>
-> $ cd repo</br>
-> $ npm i</br>
+> $ cd repo</br> > $ npm i</br>
 > $ npm start</br>
 
 </br>
 
 ## Deploy:
+
+> \$ git add . && git commit -m "commit" && git push</br>
 
 > $ npm run build</br>
 > $ npm run deploy</br>
