@@ -6,7 +6,6 @@ import Home from "../home/home";
 import Users from "../users/users";
 
 function App() {
-	console.log(BrowserRouter)
 	return (
 		<BrowserRouter>
 			<div className="App">
