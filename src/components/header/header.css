@@ -1,6 +1,5 @@
 /* HEADER MAIN DIV */
 .header__div {
-	/* border: solid 1px red; */
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -8,7 +7,7 @@
 	display: flex;
 	justify-content: left;
 	align-items: center;
-	background-color: white;
+	background-color: var(--main-bg-color);
 }
 
 @media only screen and (max-width: 400px) {
@@ -30,7 +29,6 @@ h1 {
 	width: 100px;
 }
 
-
 /* NAV MAIN DIV */
 .header__nav {
 	display: flex;
@@ -43,8 +41,7 @@ h1 {
 	.header__nav {
 		margin: auto;
 	}
-} 
-
+}
 
 /* NAV ROUTER LINK*/
 .nav__link {
@@ -54,10 +51,10 @@ h1 {
 	margin: 0 20px;
 	font-size: 16px;
 	font-weight: bold;
-	color: black;
+	color: var(--main-black-color);
 	text-decoration: none;
 }
 
 .nav__link:hover {
-	color: #265cff;
+	color: var(--main-feat-color);
 }

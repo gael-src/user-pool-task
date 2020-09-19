@@ -14,7 +14,7 @@
 .loading__p {
 	font-size: 20px;
 	font-weight: bold;
-	color: green;
+	color: var(--main-confirmation-color)green;
 }
 
 /* USERS H2 */
@@ -26,7 +26,6 @@
 
 /* USERS UL */
 .users__ul {
-	/* border: solid 1px red; */
 	max-width: 80vw;
 	display: flex;
 	flex-wrap: wrap;
@@ -36,46 +35,44 @@
 
 /* USERS LI */
 .users__li {
-	border: solid 1px #e0e0e0;
-	/* background-color: #f0f0f0; */
+	border: solid 1px var(--main-bright-color);
 	border-radius: 10px;
 	margin: 25px 25px 100px 25px;
-	/* padding: 5px 15px; */
 	width: 290px;
 	height: 380px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	/* align-items: center; */
 }
 
 @media only screen and (max-width: 500px) {
 	.users__li {
 		width: 100%;
-		margin: 5px;
+		margin: 50px 5px;
 	}
 }
 
 .users__li:hover {
-	box-shadow: 2px 2px 2px 1px #e0e0e0c2;
+	box-shadow: 2px 2px 2px 1px var(--main-light-color);
 }
 
 /* USER PIC */
 .users__pic {
 	max-width: 100%;
 	height: 70%;
-	border: solid 1px #6f42c1;
-	background-color: #6f42c1;
+	border: solid 1px var(--main-img-color);
+	background-color: var(--main-img-color);
 	border-radius: 10px 10px 0 0;
+	opacity: 0.7;
 }
 
 .users__pic:hover {
-	opacity: 0.8;
+	opacity: 0.5;
 }
 
 /* USERS P NAME */
 .users__name {
-	color: #1e2329;
+	color: var(--main-dark-color);
 	margin: 10px 0;
 	display: flex;
 	align-items: center;
@@ -85,7 +82,7 @@
 
 /* USERS LINK */
 .users__link {
-	color: #4c5b6d;
+	color: var(--main-grey-color);
 	margin: 5px 0;
 	word-break: break-all;
 	display: flex;
@@ -93,12 +90,12 @@
 }
 
 .users__link:hover {
-	color: #265cff;
+	color: var(--main-feat-color);
 }
 
 /* USERS P CITY */
 .users__city {
-	color: #4c5b6d;
+	color: var(--main-grey-color);
 	margin: 5px 0;
 	display: flex;
 	align-items: center;

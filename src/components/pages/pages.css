@@ -10,12 +10,12 @@
 
 /* ABOUT PAGE */
 .about__page {
-	background-color: #ffc10770;
+	background-color: var(--about-bg-color);
 }
 
 /* CONTACT PAGE */
 .contact__page {
-	background-color: #20c99670;
+	background-color: var(--contact-bg-color);
 }
 
 /* H2 */
@@ -28,9 +28,9 @@
 /* LOGIN LINK */
 .login__link {
 	text-decoration: none;
-	color: white;
-	background-color: #265cff;
-	border: solid 1px #265cff;
+	color: var(--main-bg-color);
+	background-color: var(--main-feat-color);
+	border: solid 1px var(--main-feat-color);
 	font-size: 18px;
 	padding: 10px 50px;
 	margin: 30px auto;
