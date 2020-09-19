@@ -12,20 +12,18 @@ function Basic() {
 			validate={(values) => {
 				const errors = {};
 				if (!values.email) {
-					errors.email = "Required";
+					errors.email = "Email field is required";
 				} else if (
 					!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
 				) {
 					errors.email = "Invalid email address";
 				} else if (values.password.length < 7) {
-					errors.password = "Min length 8 characters";
+					errors.password = "Minimum 8 characters";
 				}
 				return errors;
 			}}
 			onSubmit={(values, { setSubmitting }) => {
 				setTimeout(() => {
-					// alert(JSON.stringify(values, null, 2));
-
 					// HISTORY PUSH TO LOAD USERS ON SUBMIT
 					history.push("/user-pool-task/users");
 
@@ -49,9 +47,6 @@ function Basic() {
 						<h2>Login to view our user pool</h2>
 					</legend>
 
-					{/* <label className="label__form" htmlFor="">
-						Email
-					</label> */}
 					<input
 						className="input__form"
 						type="email"
@@ -65,9 +60,6 @@ function Basic() {
 						{errors.email && touched.email && errors.email}
 					</p>
 
-					{/* <label className="label__form" htmlFor="">
-						Password
-					</label> */}
 					<input
 						className="input__form"
 						type="password"

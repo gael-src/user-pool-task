@@ -10,7 +10,7 @@ function Header() {
 				{/* LOGO */}
 				<img className="logo__img" src={logo} alt="Moyyn Logo" />
 
-				{/* TITLE */}
+				{/* TITLE DISPLAY NONE */}
 				<h1>Moyyn</h1>
 			</Link>
 			<nav className="header__nav">
