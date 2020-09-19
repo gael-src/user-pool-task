@@ -5,7 +5,13 @@
 	justify-content: center;
 	align-items: center;
 	padding: 10px;
-	max-width: 250px;
+	max-width: 260px;
+}
+
+@media only screen and (max-width: 600px) {
+	.main__form {
+		max-width: 100%;
+	}
 }
 
 /* BUTTON FORM */
@@ -26,7 +32,7 @@
 /*  INPUT FORM */
 .input__form {
 	box-sizing: border-box;
-	margin: 15px;
+	margin: 15px 0;
 	padding: 10px;
 	width: 100%;
 }
@@ -48,6 +54,6 @@
 
 /* ERROR P MESSAGE */
 .error__p {
-	height: 5px;
+	height: 10px;
 	color: var(--main-error-color);
 }

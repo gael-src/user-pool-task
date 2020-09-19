@@ -14,7 +14,7 @@
 .loading__p {
 	font-size: 20px;
 	font-weight: bold;
-	color: var(--main-confirmation-color)green;
+	color: var(--main-confirmation-color);
 }
 
 /* USERS H2 */
@@ -26,10 +26,10 @@
 
 /* USERS UL */
 .users__ul {
-	max-width: 80vw;
+	max-width: 90vw;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -102,6 +102,6 @@
 }
 
 .icon__img {
-	width: 20px;
+	width: 25px;
 	margin: 10px 10px 10px 15px;
 }

@@ -1,18 +1,3 @@
-:root {
-	--main-black-color: black;
-	--main-dark-color: #1e2329;
-	--main-grey-color: #4c5b6d;
-	--main-light-color: #e0e0e0c2;
-	--main-bright-color: #e0e0e0;
-	--main-bg-color: white;
-	--main-error-color: red;
-	--main-confirmation-color: green;
-	--main-feat-color: #265cff;
-	--main-img-color: #6f42c1;
-	--about-bg-color: #ffc10770;
-	--contact-bg-color: #20c99670;
-}
-
 body {
 	margin: 0;
 	font-family: "Poppins", sans-serif, -apple-system, BlinkMacSystemFont,
