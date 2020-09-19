@@ -26,7 +26,7 @@
 
 /* USERS UL */
 .users__ul {
-	max-width: 90vw;
+	max-width: 85vw;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -35,13 +35,13 @@
 
 @media only screen and (max-width: 1200px) {
 	.users__ul {
-		max-width: 80vw;
+		max-width: 90vw;
 	}
 }
 
 @media only screen and (max-width: 900px) {
 	.users__ul {
-		max-width: 90vw;
+		max-width: 95vw;
 	}
 }
 
