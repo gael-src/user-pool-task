@@ -4,9 +4,10 @@
 
 ## Install:
 
-> $ git clone repo</br>
-> $ cd repo</br> > $ npm i</br>
-> $ npm start</br>
+> \$ git clone repo</br> 
+> \$ cd repo</br> 
+> \$ npm i</br> 
+> \$ npm start</br>
 
 </br>
 
@@ -14,8 +15,8 @@
 
 > \$ git add . && git commit -m "commit" && git push</br>
 
-> $ npm run build</br>
-> $ npm run deploy</br>
+> \$ npm run build</br>
+> \$ npm run deploy</br>
 
 https://gael-src.github.io/user-pool-task/
 
@@ -57,7 +58,7 @@ Optional - use Material-UI for the UI elements.
 
 ### create-react-app
 
-> \$ npx create-react-app .
+> \$ npx create-react-app .  </br>
 
 https://reactjs.org/docs/getting-started.html
 
@@ -65,7 +66,7 @@ https://reactjs.org/docs/getting-started.html
 
 ### react-router-dom
 
-> \$ npm install --save react-router-dom</br>
+> \$ npm install --save react-router-dom </br>
 
 https://www.npmjs.com/package/react-router-dom
 
@@ -73,8 +74,8 @@ https://www.npmjs.com/package/react-router-dom
 
 ### formik / yup
 
-> $ npm install formik --save</br>
-> $ npm install yup --save</br>
+> \$ npm install formik --save </br>
+> \$ npm install yup --save </br>
 
 https://formik.org/docs/overview
 
@@ -82,6 +83,6 @@ https://formik.org/docs/overview
 
 ### gh-pages
 
-> \$ npm install gh-pages</br>
+> \$ npm install gh-pages </br>
 
 https://www.npmjs.com/package/gh-pages
