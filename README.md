@@ -86,8 +86,8 @@ https://formik.org/docs/overview
 
 </br>
 
-### gh-pages
+### surge
 
-> \$ npm install gh-pages
+> \$ npm install --global surge
 
-https://www.npmjs.com/package/gh-pages
+user-pool.surge.sh
