@@ -20,9 +20,9 @@
 
 > \$ npm run build
 
-> \$ npm run deploy
+> \$ surge
 
-https://gael-src.github.io/user-pool-task/
+https://user-pool.surge.sh/
 
 </br>
 </br>
@@ -90,4 +90,4 @@ https://formik.org/docs/overview
 
 > \$ npm install --global surge
 
-user-pool.surge.sh
+https://surge.sh/help/getting-started-with-surge
