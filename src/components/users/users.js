@@ -55,34 +55,43 @@ class Users extends React.Component {
 							<li id={`#userID${item.id}`} className="users__li" key={item.id}>
 								{/* IMG */}
 								<div className="users__pic"></div>
+								<div className="users__info">
+									{/* NAME */}
+									<p className="users__name">
+										<span>
+											<img
+												className="icon__img"
+												src={nameIcon}
+												alt="Name Icon"
+											/>
+										</span>
+										{item.name}
+									</p>
 
-								{/* NAME */}
-								<p className="users__name">
-									<span>
-										<img className="icon__img" src={nameIcon} alt="Name Icon" />
-									</span>
-									{item.name}
-								</p>
+									{/* EMAIL */}
+									<a className="users__link" href={`mailto:${item.email}`}>
+										<span>
+											<img
+												className="icon__img"
+												src={emailIcon}
+												alt="Name Icon"
+											/>
+										</span>
+										{item.email}
+									</a>
 
-								{/* EMAIL */}
-								<a className="users__link" href={`mailto:${item.email}`}>
-									<span>
-										<img
-											className="icon__img"
-											src={emailIcon}
-											alt="Name Icon"
-										/>
-									</span>
-									{item.email}
-								</a>
-
-								{/* CITY */}
-								<p className="users__city">
-									<span>
-										<img className="icon__img" src={mapIcon} alt="Name Icon" />
-									</span>
-									{item.address.city}
-								</p>
+									{/* CITY */}
+									<p className="users__city">
+										<span>
+											<img
+												className="icon__img"
+												src={mapIcon}
+												alt="Name Icon"
+											/>
+										</span>
+										{item.address.city}
+									</p>
+								</div>
 							</li>
 						))}
 					</ul>
