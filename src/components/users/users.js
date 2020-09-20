@@ -14,12 +14,10 @@ class Users extends React.Component {
 		this.fetchUsersData = this.fetchUsersData.bind(this);
 	}
 
-	// FOCUS IN MODAL
 	componentDidMount() {
 		this.fetchUsersData();
 	}
 
-	// POST FIREBASE
 	async fetchUsersData() {
 		const requestOptions = {
 			method: "GET",
@@ -28,13 +26,15 @@ class Users extends React.Component {
 				"Content-Type": "application/json",
 			},
 		};
-
+		this.setState({
+			isLoading: true,
+		});
 		await fetch("https://jsonplaceholder.typicode.com/users", requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				this.setState({
 					usersData: result,
-					isLoading: true,
+					isLoading: false,
 				});
 			})
 			.catch((error) => console.log("error:", error));
@@ -48,11 +48,14 @@ class Users extends React.Component {
 
 				{/* CARDS */}
 				{this.state.isLoading ? (
+					<p className="loading__p">Loading...</p>
+				) : (
 					<ul className="users__ul">
 						{this.state.usersData.map((item, index) => (
 							<li id={`#userID${item.id}`} className="users__li" key={item.id}>
 								{/* IMG */}
 								<div className="users__pic"></div>
+
 								{/* NAME */}
 								<p className="users__name">
 									<span>
@@ -64,7 +67,11 @@ class Users extends React.Component {
 								{/* EMAIL */}
 								<a className="users__link" href={`mailto:${item.email}`}>
 									<span>
-										<img className="icon__img" src={emailIcon} alt="Name Icon" />
+										<img
+											className="icon__img"
+											src={emailIcon}
+											alt="Name Icon"
+										/>
 									</span>
 									{item.email}
 								</a>
@@ -79,8 +86,6 @@ class Users extends React.Component {
 							</li>
 						))}
 					</ul>
-				) : (
-					<p className="loading__p">Loading...</p>
 				)}
 			</div>
 		);

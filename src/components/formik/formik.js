@@ -3,8 +3,8 @@ import { Formik } from "formik";
 import { useHistory } from "react-router-dom";
 import "./formik.css";
 
-function Basic() {
-	// HISTORY
+function BasicForm() {
+	// USE HITORY TO REDIRECT TO /USERS AFTER LOGIN
 	let history = useHistory();
 	return (
 		<Formik
@@ -12,7 +12,7 @@ function Basic() {
 			validate={(values) => {
 				const errors = {};
 				if (!values.email) {
-					errors.email = "Email field is required";
+					errors.email = "Email required";
 				} else if (
 					!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
 				) {
@@ -25,7 +25,7 @@ function Basic() {
 			onSubmit={(values, { setSubmitting }) => {
 				setTimeout(() => {
 					// HISTORY PUSH TO LOAD USERS ON SUBMIT
-					history.push("/user-pool-task/users");
+					history.push("/users");
 
 					setSubmitting(false);
 				}, 400);
@@ -43,7 +43,6 @@ function Basic() {
 			}) => (
 				<form className="main__form" onSubmit={handleSubmit}>
 					<legend className="legend__form">
-						{/* TITLE */}
 						<h2>Login to view our user pool</h2>
 					</legend>
 
@@ -86,4 +85,4 @@ function Basic() {
 	);
 }
 
-export default Basic;
+export default BasicForm;

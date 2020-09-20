@@ -13,16 +13,16 @@ function App() {
 			<div className="App">
 				<Header />
 				<Switch>
-					<Route exact path="/user-pool-task">
+					<Route exact path="/">
 						<Home />
 					</Route>
-					<Route exact path="/user-pool-task/users">
+					<Route exact path="/users">
 						<Users />
 					</Route>
-					<Route exact path="/user-pool-task/about">
+					<Route exact path="/about">
 						<About />
 					</Route>
-					<Route exact path="/user-pool-task/contact">
+					<Route exact path="/contact">
 						<Contact />
 					</Route>
 				</Switch>
