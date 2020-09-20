@@ -16,13 +16,14 @@ function App() {
 					<Route exact path="/">
 						<Home />
 					</Route>
-					<Route exact path="/users">
+
+					<Route path="/users">
 						<Users />
 					</Route>
-					<Route exact path="/about">
+					<Route path="/about">
 						<About />
 					</Route>
-					<Route exact path="/contact">
+					<Route path="/contact">
 						<Contact />
 					</Route>
 				</Switch>
