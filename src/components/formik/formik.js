@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import "./formik.css";
 
 function BasicForm() {
-	// USE HITORY TO REDIRECT TO /USERS AFTER LOGIN
+	// REDIRECT TO /USERS AFTER LOGIN
 	let history = useHistory();
 	return (
 		<Formik
@@ -24,7 +24,7 @@ function BasicForm() {
 			}}
 			onSubmit={(values, { setSubmitting }) => {
 				setTimeout(() => {
-					// HISTORY PUSH TO LOAD USERS ON SUBMIT
+					// CREATE USER REDIRECTION ON SUBMIT
 					history.push("/users");
 
 					setSubmitting(false);
@@ -39,7 +39,6 @@ function BasicForm() {
 				handleBlur,
 				handleSubmit,
 				isSubmitting,
-				/* and other goodies */
 			}) => (
 				<form className="main__form" onSubmit={handleSubmit}>
 					<legend className="legend__form">
