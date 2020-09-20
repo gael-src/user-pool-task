@@ -49,7 +49,7 @@ function BasicForm() {
 						className="input__form"
 						type="email"
 						name="email"
-						placeholder="Type your email"
+						placeholder="email..."
 						onChange={handleChange}
 						onBlur={handleBlur}
 						value={values.email}
@@ -62,7 +62,7 @@ function BasicForm() {
 						className="input__form"
 						type="password"
 						name="password"
-						placeholder="Type your password"
+						placeholder="password..."
 						onChange={handleChange}
 						onBlur={handleBlur}
 						value={values.password}
