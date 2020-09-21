@@ -31,6 +31,7 @@
 	color: var(--main-bg-color);
 	background-color: var(--main-feat-color);
 	border: solid 1px var(--main-feat-color);
+	border-radius: 8px;
 	font-size: 18px;
 	padding: 10px 50px;
 	margin: 30px auto;

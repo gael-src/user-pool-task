@@ -17,7 +17,9 @@
 /*  INPUT FORM */
 .input__form {
 	box-sizing: border-box;
-	margin: 10px 0 0;
+	border: solid 1px var(--main-light-color);
+	border-radius: 7px;
+	margin: 10px 0 5px;
 	padding: 10px;
 	width: 100%;
 }
@@ -27,6 +29,7 @@
 	color: var(--main-bg-color);
 	background-color: var(--main-feat-color);
 	border: solid 1px var(--main-feat-color);
+	border-radius: 8px;
 	font-size: 18px;
 	padding: 10px 100px;
 	margin: 20px 0;
