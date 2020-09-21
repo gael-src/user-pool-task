@@ -14,14 +14,6 @@
 	}
 }
 
-/* LEGEND FORM */
-.legend__form {
-	font-size: 18px;
-	font-weight: bold;
-	margin: 0 auto 30px;
-	color: var(--main-feat-color);
-}
-
 /*  INPUT FORM */
 .input__form {
 	box-sizing: border-box;

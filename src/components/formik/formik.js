@@ -41,10 +41,6 @@ function BasicForm() {
 				isSubmitting,
 			}) => (
 				<form className="main__form" onSubmit={handleSubmit}>
-					<legend className="legend__form">
-						<h2>Login to view our user pool</h2>
-					</legend>
-
 					<input
 						className="input__form"
 						type="email"
