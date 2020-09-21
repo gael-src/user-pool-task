@@ -4,23 +4,18 @@
 
 ## Install:
 
-> \$ git clone repo
-
-> \$ cd repo
-
-> \$ npm i
-
-> \$ npm start
+> \$ git clone repo</br>
+> \$ cd repo</br>
+> \$ npm i</br>
+> \$ npm start</br>
 
 </br>
 
 ## Deploy:
 
-> \$ git add . && git commit -m "commit" && git push
-
-> \$ npm run build
-
-> \$ surge
+> \$ git add . && git commit -m "commit" && git push</br>
+> \$ npm run build</br>
+> \$ surge</br>
 
 https://user-pool.surge.sh/
 
@@ -52,6 +47,29 @@ Optional - use Material-UI for the UI elements.
 </br>
 </br>
 </br>
+</br>
+
+## Fonts:
+
+> \$ font-family: 'Poppins', sans-serif;
+
+</br>
+
+## Colors:
+
+> \$ --main-black-color: black;</br> 
+> \$ --main-dark-color: #1e2329;</br> 
+> \$ --main-grey-color: #4c5b6d;</br> 
+> \$ --main-light-color: #C0C0C0;</br> 
+> \$ --main-bright-color: #e0e0e0;</br> 
+> \$ --main-bg-color: white;</br> 
+> \$ --main-error-color: red;</br> 
+> \$ --main-confirmation-color: green;</br> 
+> \$ --main-feat-color: #265cff;</br> 
+> \$ --main-img-color: #6f42c1;</br> 
+> \$ --about-bg-color: #ffc10770;</br> 
+> \$ --contact-bg-color: #20c99670;</br>
+
 </br>
 
 ## Used technologies:
